@@ -68,7 +68,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6 && "flex justify-center" } h-full`}>
+      <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -89,7 +89,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+            {/* <div className="absolute z-50 flex items-center justify-center text-white font-bold" /> */}
           </BackgroundGradientAnimation>
         )}
 
@@ -114,10 +114,10 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]"/>
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
               </div>
               <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]"/>
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
                 {["Leptos", "Rust", "PostgreSQL"].map((item) => (
                   <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
@@ -140,7 +140,7 @@ export const BentoGridItem = ({
                 }} />
               </div>
 
-              <MagicButton 
+              <MagicButton
                 title={copied ? "Email copied" : "Copy my email"}
                 icon={<IoCopyOutline />}
                 position="left"
