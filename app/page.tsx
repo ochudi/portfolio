@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 
@@ -6,6 +8,7 @@ import Grid from "@/components/Grid";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
+import Approach from '@/components/Approach';
 
 export default function Home() {
   return (
@@ -17,6 +20,7 @@ export default function Home() {
         <RecentProjects />
         <Clients />
         <Experience />
+        <Approach />
       </div>
     </main>
   );
