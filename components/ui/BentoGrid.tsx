@@ -6,7 +6,7 @@ import { IoCopyOutline } from "react-icons/io5";
 
 import { cn } from "@/lib/utils";
 import animationData from "@/data/confetti.json";
-import { GlobeDemo } from "@/components/ui/GridGlobe";
+import { GlobeDemo } from "@/components/ui/Grid-Globe";
 import MagicButton from "@/components/ui/MagicButton";
 import { BackgroundGradientAnimation } from "@/components/ui/GradientBg";
 
