@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Chukwudi was a fantastic experience. His depth in both frontend and backend development made our project seamless and efficient. He communicated proactively and always went above and beyond to bring our ideas to life. Highly recommended for any team looking for a dependable developer.",
+    name: "Sarah Duru",
+    title: "CEO of BrightPath Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Chukwudi's expertise in UI/UX design transformed our user experience. His unique approach to problem-solving and thoroughness ensured our platform was user-friendly and visually appealing. His work ethic and dedication to quality are unmatched.",
+    name: "Emeka Osuji",
+    title: "Founder of Connectify Hub",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Chukwudi's collaborative spirit and technical knowledge stood out in every phase of development. He worked with us as a true partner, understanding our needs and delivering results that surpassed our expectations. A reliable developer who truly cares about the project’s success.",
+    name: "Tunde Ajayi",
+    title: "CTO of VentureLabs",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Chukwudi brings a refreshing level of enthusiasm and dedication to his work. His skills in front-end technologies and attention to detail allowed us to launch on schedule with a highly polished interface. I couldn’t ask for a better addition to the team.",
+    name: "Amara Udeh",
+    title: "Product Manager at DreamSoft",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Having Chukwudi on our project was invaluable. His knowledge of both UI/UX design and software development helped us create a cohesive, effective product. He’s professional, creative, and always delivers quality work.",
+    name: "Bola Akinola",
+    title: "Head of Product at Nexus Digital",
   },
 ];
 
@@ -172,33 +172,34 @@ export const companies = [
 
 export const workExperience = [
   {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    "id": 1,
+    "title": "Full Stack Developer",
+    "desc": "Built and maintained full-stack applications using Django, PostgreSQL, and Docker, delivering high-performance APIs and streamlined user data analysis.",
+    "className": "md:col-span-2",
+    "thumbnail": "/exp1.svg"
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    "id": 2,
+    "title": "Mobile Developer",
+    "desc": "Developed an inventory management app with React Native and MySQL, integrating payment APIs and collaborating on feature rollouts to meet business needs.",
+    "className": "md:col-span-2",
+    "thumbnail": "/exp2.svg"
   },
   {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    "id": 3,
+    "title": "Frontend Developer",
+    "desc": "Created responsive pages with React and Chakra UI, enhancing user experience and contributing to scalable, SEO-friendly web pages.",
+    "className": "md:col-span-2",
+    "thumbnail": "/exp3.svg"
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+    "id": 4,
+    "title": "AI Project Developer",
+    "desc": "Engineered a fault detection application using Python and PyTorch, applying ResNet-50 for enhanced accuracy in image classification.",
+    "className": "md:col-span-2",
+    "thumbnail": "/exp4.svg"
+  }
+  
 ];
 
 export const socialMedia = [
