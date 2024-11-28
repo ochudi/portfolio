@@ -108,7 +108,7 @@ export const testimonials = [
   {
     quote:
       "Working with Chukwudi was a fantastic experience. His depth in both frontend and backend development made our project seamless and efficient. He communicated proactively and always went above and beyond to bring our ideas to life. Highly recommended for any team looking for a dependable developer.",
-    name: "Sarah Duru",
+    name: "Sarah Afolabi",
     title: "CEO of LinePath Nigeria",
   },
   {
