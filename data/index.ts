@@ -131,7 +131,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Having Chukwudi on our project was invaluable. His knowledge of both UI/UX design and software development helped us create a cohesive, effective product. He's professional, creative, and always delivers quality work.",
+      "Having Chukwudi on our project was invaluable. His knowledge of both UI/UX design and software development helped us create a cohesive, effective product. He is professional, creative, and always delivers quality work.",
     name: "Bola Sokoya",
     title: "CEO of Luxury Biz",
   },
