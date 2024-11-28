@@ -7,13 +7,18 @@ const nextConfig = {
     },
 };
 
+const sentryWebpackPluginOptions = {
+    dryRun: process.env.NODE_ENV !== 'production', // Disable in non-production builds
+  };
+  
+
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
 // Suppresses source map uploading logs during build
 silent: true,
-org: "javascript-mastery",
+org: "chudi",
 project: "javascript-nextjs",
 }, {
 // For all available options, see:
@@ -36,6 +41,8 @@ hideSourceMaps: true,
 
 // Automatically tree-shake Sentry logger statements to reduce bundle size
 disableLogger: true,
+
+sentryWebpackPluginOptions,
 
 // Enables automatic instrumentation of Vercel Cron Monitors.
 // See the following for more information:
