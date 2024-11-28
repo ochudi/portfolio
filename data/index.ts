@@ -76,7 +76,7 @@ export const projects = [
     des: "A website that allows you explore the solar system with a 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/",
+    link: "/site",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "A video conferencing application. It allows you connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/",
+    link: "/site",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A real SaaS app with AI features and a payments and credits system.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/",
+    link: "/site",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/",
+    link: "/site",
   },
 ];
 
