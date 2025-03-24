@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I believe in strong client collaboration and open communication.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Available across time zones to fit your schedule.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "I constantly try to improve.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Passionate about technology and building great products.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,11 +46,10 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a Technical Blog Website",
-    description: "The Inside Scoop",
+    title: "Currently building a professional dashboard.",
+    description: "The Inside Scoop:",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +58,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let's work together on your next project!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,19 +71,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System",
-    des: "A website that allows you explore the solar system with a 3D simulation of the planets using Three.js.",
+    title: "Fin-Dash",
+    des: "A financial dashboard that allows you monitor both stock and crypto prices, trends, and market data in real-time.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/site",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://findash-stocks.vercel.app",
   },
   {
     id: 2,
-    title: "Video Conferencing App",
-    des: "A video conferencing application. It allows you connect with colleagues and friends.",
+    title: "Horizon AI",
+    des: "The innovative financial solution that offers AI insights to MSMEs and access to micro-loans.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/site",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://horizonai-main.vercel.app/",
   },
   {
     id: 3,
@@ -107,112 +106,81 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Working with Chukwudi was a fantastic experience. His depth in both frontend and backend development made our project seamless and efficient. He communicated proactively and always went above and beyond to bring our ideas to life. Highly recommended for any team looking for a dependable developer.",
+      "Working with Chukwudi was a game-changer. His expertise in both frontend and backend development made everything run smoothly. He’s proactive, detail-oriented, and always goes the extra mile. If you need a reliable developer, he’s the one.",
     name: "Sarah Afolabi",
-    title: "CEO of LinePath Nigeria",
+    title: "CEO, LinePath Nigeria",
   },
   {
     quote:
-      "Chukwudi's expertise in UI/UX design transformed our user experience. His unique approach to problem-solving and thoroughness ensured our platform was user-friendly and visually appealing. His work ethic and dedication to quality are unmatched.",
+      "Chukwudi completely revamped our UI/UX, making our platform more intuitive and visually appealing. His problem-solving skills and attention to detail made a huge difference. He’s a rare find in the tech space!",
     name: "Joshua Nwachukwu",
     title: "Head of IT, UNIV Nigeria",
   },
   {
     quote:
-      "Chukwudi's collaborative spirit and technical knowledge stood out in every phase of development. He worked with us as a true partner, understanding our needs and delivering results that surpassed our expectations. A reliable developer who truly cares about the project’s success.",
+      "From start to finish, Chukwudi was a true partner. He understood our vision and delivered results beyond what we imagined. His technical skills and commitment to excellence set him apart.",
     name: "Ifeoluwa Afolabi",
     title: "Content Creator",
   },
   {
     quote:
-      "Chukwudi brings a refreshing level of enthusiasm and dedication to his work. His skills in front-end technologies and attention to detail allowed us to launch on schedule with a highly polished interface. I couldn’t ask for a better addition to the team.",
+      "Chukwudi brings energy and expertise to every project. Thanks to his frontend skills and keen eye for detail, we launched a sleek, high-performance product on time. Couldn’t have asked for a better collaborator.",
     name: "Nicholas Tali",
-    title: "Owner of Nauvitel Electronics",
+    title: "Founder, Nauvitel Electronics",
   },
   {
     quote:
-      "Having Chukwudi on our project was invaluable. His knowledge of both UI/UX design and software development helped us create a cohesive, effective product. He is professional, creative, and always delivers quality work.",
+      "Chukwudi’s ability to bridge UI/UX design with software development helped us create a seamless product. He’s creative, professional, and always delivers top-notch work. Highly recommended!",
     name: "Bola Sokoya",
-    title: "CEO of Luxury Biz",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    title: "CEO, Luxury Biz",
   },
 ];
 
 export const workExperience = [
   {
-    "id": 1,
-    "title": "Full Stack Developer",
-    "desc": "Built and maintained full-stack applications using Django, PostgreSQL, and Docker, delivering high-performance APIs and streamlined user data analysis.",
-    "className": "md:col-span-2",
-    "thumbnail": "/exp1.svg"
+    id: 1,
+    title: "Backend Developer",
+    desc: "Designed and maintained scalable backend systems using Django, PostgreSQL, and Docker. Developed high-performance APIs and optimized data processing workflows.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
   {
-    "id": 2,
-    "title": "Mobile Developer",
-    "desc": "Developed an inventory management app with React Native and MySQL, integrating payment APIs and collaborating on feature rollouts to meet business needs.",
-    "className": "md:col-span-2",
-    "thumbnail": "/exp2.svg"
+    id: 2,
+    title: "Frontend Developer",
+    desc: "Built responsive and visually engaging web applications using React, Next.js, and Tailwind CSS. Focused on accessibility, performance, and SEO-friendly design.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
   },
   {
-    "id": 3,
-    "title": "Frontend Developer",
-    "desc": "Created responsive pages with React and Chakra UI, enhancing user experience and contributing to scalable, SEO-friendly web pages.",
-    "className": "md:col-span-2",
-    "thumbnail": "/exp3.svg"
+    id: 3,
+    title: "Data Engineer",
+    desc: "Developed efficient data pipelines and processing systems using Python, PostgreSQL, and cloud-based solutions. Focused on data analysis, storage, and optimization.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
   {
-    "id": 4,
-    "title": "AI Project Developer",
-    "desc": "Engineered a fault detection application using Python and PyTorch, applying ResNet-50 for enhanced accuracy in image classification.",
-    "className": "md:col-span-2",
-    "thumbnail": "/exp4.svg"
-  }
-  
+    id: 4,
+    title: "UI Designer",
+    desc: "Created modern, user-friendly interfaces with Figma and Adobe XD. Worked closely with developers to bring intuitive, aesthetically pleasing designs to life.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/ochudi",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/mrofoma",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ochudi/",
   },
 ];
