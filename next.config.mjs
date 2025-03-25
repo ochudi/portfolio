@@ -4,14 +4,12 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   eslint: {
-    ignoreDuringBuilds: true, 
+    ignoreDuringBuilds: true,
   },
   reactStrictMode: true,
   swcMinify: true,
-  output: 'standalone',
-  experimental: {
-    logging: {},
-  },
+  output: "standalone",
+  experimental: {},
 };
 
 export default nextConfig;
