@@ -60,7 +60,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/chudi.ico" sizes="any" />
+      <link rel="icon" href="/ico/favicon.ico" sizes="any" media="(prefers-color-scheme: light)" />
+      <link rel="icon" href="/ico/favicon-light.ico" sizes="any" media="(prefers-color-scheme: dark)" />
       </head>
       <body className={`${inter.className} dark`}>
         <ThemeProvider
