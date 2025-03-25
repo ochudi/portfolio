@@ -6,6 +6,7 @@ import "./globals.css";
 import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Chukwudi Ofoma | Software Engineer",
@@ -59,10 +60,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <head>
-      <link rel="icon" href="/ico/favicon.ico" sizes="any" media="(prefers-color-scheme: light)" />
-      <link rel="icon" href="/ico/favicon-light.ico" sizes="any" media="(prefers-color-scheme: dark)" />
-      </head>
+      <Head>
+        <link
+          rel="icon"
+          href="/ico/favicon.ico"
+          sizes="any"
+          media="(prefers-color-scheme: light)"
+        />
+        <link
+          rel="icon"
+          href="/ico/favicon-light.ico"
+          sizes="any"
+          media="(prefers-color-scheme: dark)"
+        />
+      </Head>
       <body className={`${inter.className} dark`}>
         <ThemeProvider
           attribute="class"
