@@ -34,9 +34,9 @@ const Experience = () => {
               <Image
                 src={card.thumbnail}
                 alt={card.thumbnail}
-                width={16} 
-                height={16} 
-                className="lg:w-32 md:w-20"
+                width={20} 
+                height={20} 
+                className="hidden md:block lg:w-14 lg:h-14 xl:w-32 xl:h-32"
               />
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">

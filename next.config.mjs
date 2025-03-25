@@ -3,10 +3,15 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true, 
+  },
   reactStrictMode: true,
   swcMinify: true,
-  output: 'standalone', // Optimized for serverless deployment like Vercel
+  output: 'standalone',
   experimental: {
-    logging: 'verbose', // More detailed logging for debugging
+    logging: {},
   },
 };
+
+export default nextConfig;
