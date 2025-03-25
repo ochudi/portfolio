@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Blog", link: "https://blog-chudi.vercel.app/" },
 ];
 
 export const gridItems = [
@@ -10,10 +10,11 @@ export const gridItems = [
     id: 1,
     title: "I believe in strong client collaboration and open communication.",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
+    className:
+      "lg:col-span-3 md:col-span-6 md:row-span-4 min-h-[30vh] lg:min-h-[60vh] text-blue-600 hover:text-gray-400 flex flex-col justify-end",
+    imgClassName: "w-full md:h-full",
+    titleClassName: "justify-end h-full w-full",
+    img: "/chudi.svg",
     spareImg: "",
   },
   {
@@ -82,7 +83,7 @@ export const projects = [
     title: "Horizon AI",
     des: "The innovative financial solution that offers AI insights to MSMEs and access to micro-loans.",
     img: "/p2.svg",
-    iconLists: ["/re.svg","/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://horizonai-main.vercel.app/",
   },
   {
